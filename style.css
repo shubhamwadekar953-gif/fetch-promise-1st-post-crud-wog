@@ -1,0 +1,37 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+body{
+    background-color :bisque;
+}
+
+.h1{
+    box-shadow: 0 0 20px 0 red;
+}
+
+.card {
+    background-color : pink;
+    box-shadow : 0px 0px 10px 0px red;
+    border-radius :25% 0;
+}
+
+.card1{
+    background-color : lightblue;
+    box-shadow : 0px 0px 10px 0px blue;
+    border-radius: 15% 15% 0 0;
+}
+
+
+.spinner{
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
